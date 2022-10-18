@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container left">
+        <img src="./img/img.jpg" alt="A Japan pic">
+    </div>
+
+    <div class="container right">
+        <div class="title"><h2>
+            Sign up now to get your first travel plan for free!
+        </h2></div>
+
+        <form action="#">
+            <div class="form left">
+                <div class="input">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="button"><button type="submit">Create Account</button></div> 
+            </div>
+                
+            <div class="form right">
+                <div class="input">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+
+                <div class="input">
+                    <label for="phone-number">Phone number</label>
+                    <input type="number" id="phone-number" name="phone-number" minlength="9" maxlength="9">
+                </div>
+
+                <div class="input">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+            </div>                       
+        </form>
+        <div class="log-in"><p>Already have an account?<a href="#"> Log in</a></p></div>
+    </div>
+
+</body>
+</html>
